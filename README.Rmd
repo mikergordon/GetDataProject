@@ -1,0 +1,3 @@
+This repo contains all the files for taking wearables data from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip and analyzing the data as well as the results and a codebook.
+
+The run_analysis.R file takes the downloaded the data from the working directory, merges the data, summarizes the data and creates a tidy data set.

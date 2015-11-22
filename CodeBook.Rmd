@@ -1,0 +1,33 @@
+This is a code book for the wearables project.
+
+Five steps:
+1. Merges the training and the test sets to create one data set. - using rbind
+
+2. Extracts only the measurements on the mean and standard deviation for each measurement. - using grep
+
+3. Uses descriptive activity names to name the activities in the data set. - using names
+
+4. Appropriately labels the data set with descriptive variable names. - using names
+
+5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject. - using ddply
+
+The results are then written to a txt file
+
+
+Variables:
+dtActivities - activities
+dtFeatures - features
+dtFeaturesSub - subset of features
+dtMaster - combined numerical data with subjects and activities
+dtMerged - combined test and train data
+dtMergedLabels - activities for merged set
+dtMergedSub - subset of merged data with only mean and std
+dtMergedSubject - merged data subjects
+dtSummary - summary statistics of master data
+dtTest - test data
+dtTestLabels - test activities
+dtTestSubject - test subjects
+dtTrain - train data
+dtTrainLabels - train activities
+dtTrainSubject - train subjects
+l - # of columns in master data set minus 2 (subject and activity)
