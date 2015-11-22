@@ -16,18 +16,33 @@ The results are then written to a txt file
 
 Variables:
 dtActivities - activities
+
 dtFeatures - features
+
 dtFeaturesSub - subset of features
+
 dtMaster - combined numerical data with subjects and activities
+
 dtMerged - combined test and train data
+
 dtMergedLabels - activities for merged set
+
 dtMergedSub - subset of merged data with only mean and std
+
 dtMergedSubject - merged data subjects
+
 dtSummary - summary statistics of master data
+
 dtTest - test data
+
 dtTestLabels - test activities
+
 dtTestSubject - test subjects
+
 dtTrain - train data
+
 dtTrainLabels - train activities
+
 dtTrainSubject - train subjects
+
 l - # of columns in master data set minus 2 (subject and activity)
